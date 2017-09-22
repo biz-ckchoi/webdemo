@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gradle.demo.HelloServletTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-09-22T10:01:56" hostname="MBP088-MacBook-Pro.local" time="0.915">
+  <properties/>
+  <testcase name="doPost" classname="org.gradle.demo.HelloServletTest" time="0.911"/>
+  <testcase name="doGet" classname="org.gradle.demo.HelloServletTest" time="0.001"/>
+  <testcase name="doPostWithName" classname="org.gradle.demo.HelloServletTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
