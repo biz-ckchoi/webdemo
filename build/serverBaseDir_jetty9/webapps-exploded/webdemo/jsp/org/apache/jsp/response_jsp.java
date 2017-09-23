@@ -41,16 +41,16 @@ public final class response_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
-      out.write("\n");
-      out.write("<html>\n");
-      out.write("\t<head>\n");
-      out.write("\t\t<title>Hello Page</title>\n");
-      out.write("\t</head>\n");
-      out.write("\t<body>\n");
+      out.write("\r\n");
+      out.write("<html>\r\n");
+      out.write("\t<head>\r\n");
+      out.write("\t\t<title>Hello Page</title>\r\n");
+      out.write("\t</head>\r\n");
+      out.write("\t<body>\r\n");
       out.write("\t\t<h2>Hello, ");
       out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${user}", java.lang.String.class, (PageContext)_jspx_page_context, null));
-      out.write("!\n");
-      out.write("\t</body>\n");
+      out.write("!\r\n");
+      out.write("\t</body>\r\n");
       out.write("</html>");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
